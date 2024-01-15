@@ -1,0 +1,25 @@
+/* styles.css */
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+  }
+  
+ .heading{
+background-color: blueviolet;
+padding: 5px 10px;
+
+.localvideo{
+   padding: 40%;
+}
+
+ }
+  video {
+    width: 50%;
+    border: 1px solid #ccc;
+    margin: 10px;
+  }
+  

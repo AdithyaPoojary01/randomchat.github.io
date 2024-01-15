@@ -1,0 +1,18 @@
+<!-- index.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Random Video Chat</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <h1 class="heading">Random Video Chat</h1>
+  <video class="localVideo" id="localVideo" autoplay muted controls></video>
+  <video id="remoteVideo" autoplay controls></video>
+  <script src="https://cdn.jsdelivr.net/npm/simple-peer@9.0.2/simplepeer.min.js"></script>
+  <script src="https://cdn.socket.io/4.0.1/socket.io.min.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
